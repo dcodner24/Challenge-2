@@ -4,6 +4,7 @@
     --dark: rgb(49, 52, 61);
     --light: rgb(146 203 206);
     --peach: #FFE5B4;
+    --body-font: rgb(68 88 118);
 }
 
 *
@@ -29,9 +30,12 @@ main
 {
     display: flex;
     flex-direction: column;
+    color: var(--body-font);
     
+
 }
 
+/* Formatting for Nav Bar Buttons */
 .navi ul
 {
     display: flex;
@@ -45,15 +49,6 @@ main
 
 }
 
-.navi ul li
-{
-    color: var(--light);
-    margin: 5px;
-    font-size: 1.15rem;
-    font-weight: 1;
-    
-}
-
 .nav-button
 {
     text-decoration: none;
@@ -62,6 +57,9 @@ main
     border-bottom: solid var(--light);
     padding-left: 5px;
     padding-right: 5px;
+    margin: 5px;
+    font-size: 1.15rem;
+    font-weight: 1; 
 }
 
 .caption-box
@@ -74,6 +72,9 @@ main
     color: var(--dark);
     
 }
+
+
+/* Image and subtitle below top nav bar */
 
 .page-cap
 {
@@ -91,20 +92,25 @@ main
     display:flex;
     flex-direction:row;
     flex-wrap: nowrap;
-    margin: 25px 40px 25px 40px;
-    background-color: var(--dark);
+    justify-content: center;
+    
+   
+    
+    
  }
 
- .side-title
- {
-
- }
+.side-title
+{
+  text-align: right;
+  margin-right: 5px;  
+}
 
 #sub
 {
     padding:0;
     margin:0;
 }
+
 #sub h2
 {
     background-color: var(--light);
@@ -116,5 +122,51 @@ main
 #top-edge
 {
     margin-top: 50px;
+}
+
+.row-body
+{
+    display:flex;
+    border-left: 3px solid var(--body-font);
+    padding-left: 25px;
+    width: 70%;
+    align-items: center;   
+    justify-content: center; 
+}
+
+#about-tag
+{
+    margin-left: 28px;
+    
+}
+#work-tag
+{
+    margin-top: 25px;
+    margin-left: 24px;
+    margin-bottom:25px;
+}
+
+#contact-tag
+{
+    margin-left: 0px;
+}
+
+.cont-button
+{
+    text-decoration: none;
+    color: black;
+    border-bottom: solid var(--body-font);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 17px;
+    font-weight: 525;
+    margin-left: 20px;
+    margin-right: 20px;
+    ;
+}
+
+#edge-item
+{
+    margin-left=
 }
 
