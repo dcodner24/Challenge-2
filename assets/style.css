@@ -35,7 +35,7 @@ main
 
 }
 
-/* Formatting for Nav Bar Buttons */
+/* Formatting for Nav Bar Buttons and Caption*/
 .navi ul
 {
     display: flex;
@@ -132,6 +132,9 @@ main
     width: 70%;
     align-items: center;   
     justify-content: center; 
+    flex-wrap:nowrap;
+
+
 }
 
 #about-tag
