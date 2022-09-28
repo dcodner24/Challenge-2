@@ -7,7 +7,7 @@ The goal of this project was to create a template website for my project portfol
 
 ## Usage
 
-This webpage is a showcase of my projects for boot camp, present and future. All of the boxes in the work section are functional and link to my github profile until the projects for the buttons are complete.
+This webpage is a showcase of my projects for boot camp, present and future. All of the boxes in the work section are functional, though they require links to future projects when they are complete.
 
 ## License
 
